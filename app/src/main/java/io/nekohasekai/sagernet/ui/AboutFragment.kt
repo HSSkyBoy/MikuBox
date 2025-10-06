@@ -89,7 +89,7 @@ class AboutFragment : ToolbarFragment(R.layout.layout_about) {
                                 .build())
                         .addItem(
                             MaterialAboutActionItem.Builder()
-                                .icon(R.drawable.ic_baseline_layers_24)
+                                .icon(R.drawable.ic_package_variant_closed)
                                 .text(getString(R.string.version_x, "sing-box"))
                                 .subText(Libcore.versionBox())
                                 .setOnClickAction { }
@@ -165,7 +165,7 @@ class AboutFragment : ToolbarFragment(R.layout.layout_about) {
                         .title(R.string.project)
                         .addItem(
                             MaterialAboutActionItem.Builder()
-                                .icon(R.drawable.ic_baseline_sanitizer_24)
+                                .icon(R.drawable.ic_github)
                                 .text(R.string.uwu_mikubox)
                                 .subText(R.string.github)
                                 .setOnClickAction {
@@ -178,7 +178,7 @@ class AboutFragment : ToolbarFragment(R.layout.layout_about) {
                         .addItem(
                             MaterialAboutActionItem.Builder()
                                 .icon(R.drawable.ic_qu_shadowsocks_foreground)
-                                .text(R.string.uwu_hatsune )
+                                .text(R.string.uwu_hatsune)
                                 .subText(R.string.telegram)
                                 .setOnClickAction {
                                     requireContext().launchCustomTab(
@@ -188,8 +188,8 @@ class AboutFragment : ToolbarFragment(R.layout.layout_about) {
                                 .build())
                         .addItem(
                             MaterialAboutActionItem.Builder()
-                                .icon(R.drawable.ic_baseline_sanitizer_24)
-                                .text(R.string.uwu_mikubox)
+                                .icon(R.drawable.ic_github)
+                                .text(R.string.uwu_mikubox_mod)
                                 .subText(R.string.github)
                                 .setOnClickAction {
                                     requireContext().launchCustomTab(
